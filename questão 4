@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Digite o valor do seu salario");
+		double salario=scanner.nextDouble();
+		double inss;
+		double impostorenda;
+		if(salario<1000){
+		   	System.out.println("0"); 
+		    	System.out.println("0"); 
+		    	
+		    
+		}if(salario>=1000 & salario<2000){
+		    System.out.println(salario*0.1); 
+		    System.out.println(salario*0.11); 
+		    
+		    
+		    
+		}if(salario>=2000 & salario<3000){
+		    System.out.println(salario*0.2); 
+		    System.out.println(salario*0.15); 
+		
+		
+	}if(salario>=3000){
+		    System.out.println(salario*0.27); 
+		    System.out.println(salario*0.20); 
+}
+
+}
+}
