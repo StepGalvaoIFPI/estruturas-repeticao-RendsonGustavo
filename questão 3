@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite seu salario ");
+        double salario=scanner.nextDouble();
+         System.out.println(salario);
+         double inss;
+         double impostorenda;
+        if(salario>2000){
+            inss=salario*0.15;
+            impostorenda=salario*0.1;
+             System.out.printf("salario: %.2f\n",salario);
+             System.out.printf("imposto de renda %.2f\n",impostorenda);
+             System.out.printf("inss :%.2f\n",inss);
+        }else{
+          inss=0;
+            impostorenda=0;
+              System.out.printf("salario: %.2f\n",salario);
+             System.out.printf("imposto de renda %.2f\n",impostorenda);
+             System.out.printf("inss:%.2f\n",inss);
+            
+        
+        
+            
+        }
+    }
+}
